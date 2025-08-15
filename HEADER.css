@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Foodato logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff4d4d;
+  margin-right: 20px;
+  letter-spacing: 1px;
+}
+
+.location {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.veg-toggle {
+  margin-left: 15px;
+  font-size: 12px;
+  color: green;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    #ff9933 0%,
+    #ffffff 50%,
+    #138808 100%
+  );
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.banner-text {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.offer-week {
+  font-size: 12px;
+  color: gray;
+}
+
+.offer-details {
+  font-size: 14px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: red;
+}
+
+.gold-btn {
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.flag {
+  width: 30px;
+  height: auto;
+}
